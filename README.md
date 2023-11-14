@@ -7,14 +7,3 @@ Excited to connect and chat about all things tech! 🖥️💻
 https://github.com/snehaxaaa/Profile-card/assets/146460728/1bbe62c8-dfd4-457d-987f-a5582967b204
 
 
-#HelloWorld #CodingBeginner
-#ProgrammingNewbie #CodeCrafting
-#GitHubGurus
-#GitMasters
-#RepoRoyalty
-#CodeArtistry
-#OpenSourceChampion
-#CommitCreators
-#CodeWizardry
-#ForkAndConquer
-#CollaborativeCoding
