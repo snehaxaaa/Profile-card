@@ -1,0 +1,321 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.social-links {
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+ 
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  background: white;
+  margin: 5px;
+  transition: 1s;
+  font-size: x-large;
+}
+
+.gmail-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  background: white;
+  margin: 5px;
+  transition: 1s;
+  font-size: x-large;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 1s;
+  text-align: center;
+}
+
+.gmail-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 1s;
+  text-align: center;
+}
+
+.social-btn:hover {
+  width: 180px;
+  border-radius: 2px;
+}
+.gmail-btn:hover {
+  width: 280px;
+  border-radius: 5px;
+}
+
+
+.social-btn:hover span {
+  padding: 2px;
+  width: max-content;
+}
+
+.gmail-btn:hover span {
+  padding: 2px;
+  width: max-content;
+}
+
+#twitter svg {
+  fill: #1da1f2;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github {
+  fill: #333;
+}
+h1
+{
+   
+  background-image: linear-gradient(
+    -225deg,
+    rgb(230, 235, 166) 0%,
+    #cdacec 29%,
+    #e99fb5 67%,
+    #f5f2ab 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+  position: absolute;
+  bottom: 65%;
+  left: 39%;
+  transition: .3s;
+
+  font-family: 'Calibri';
+  font-size:55px;
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+h1:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+h2 {
+  font-family: "Bahnschrift Light";
+  max-width: 60ch;
+  text-align: justify;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  position:absolute;
+  bottom:20%;
+  left:2%;
+  right:2%;
+  font-size: large;
+  color: #fff;
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+
+.form-box {
+	background-color: rgba(3, 3, 3, 0.575);
+	margin: auto auto;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 600px;
+	height: 430px;
+}
+
+
+body{
+  background: #f5a9eb;
+}
+
+
+.circle{
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  animation: ripple 15s infinite;
+  box-shadow: 0px 0px 1px 0px #508fb9;
+}
+
+.small{
+  width: 200px;
+  height: 200px;
+  left: -100px;
+  bottom: -100px;
+}
+
+.medium{
+  width: 400px;
+  height: 400px;
+  left: -200px;
+  bottom: -200px;
+}
+
+.large{
+  width: 600px;
+  height: 600px;
+  left: -300px;
+  bottom: -300px;
+}
+
+.xlarge{
+  width: 800px;
+  height: 800px;
+  left: -400px;
+  bottom: -400px;
+}
+
+.xxlarge{
+  width: 1000px;
+  height: 1000px;
+  left: -500px;
+  bottom: -500px;
+}
+
+.shade1{
+  opacity: 0.2;
+}
+.shade2{
+  opacity: 0.5;
+}
+
+.shade3{
+  opacity: 0.7;
+}
+
+.shade4{
+  opacity: 0.8;
+}
+
+.shade5{
+  opacity: 0.9;
+}
+
+@keyframes ripple{
+  0%{
+    transform: scale(0.8);
+  }
+  
+  50%{
+    transform: scale(1.2);
+  }
+  
+  100%{
+    transform: scale(0.8);
+  }
+}
+ 
+
+.hr,
+.min {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3vmin;
+  grid-row: 1/2;
+  align-items: start;
+}
+.number {
+  user-select: none;
+  width: 4vmin;
+  height: 8vmin;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  transition: all 500ms 100ms ease;
+  
+}
+.number.pop {
+  color: rgb(238, 34, 170);
+  font-weight: bold;
+  transform: scale(1.3);
+  background-color: #f8f4f7;
+  box-shadow: -1vmin -1vmin 2vmin -0.5vmin #f8e5f3, 1vmin 1vmin 2vmin rgb(248, 222, 235);
+}
+.strip {
+  transition: transform 500ms ease-in-out;
+  border-radius: 1.333333333333333vmin;
+  background-color:#ecacd7;
+  box-shadow: -1vmin -1vmin 2vmin -0.5vmin #fcd5f3, 1vmin 1vmin 2vmin #e8a9da;
+}
+.clock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4vmin;
+  height: 2vmin;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  transition: transform .2s;
+
+}
+.clock:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
